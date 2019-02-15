@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="style.css">
-    <h1>FretScale</h1>
-    <select name="key" class="key">
-        <option value="a">A</option>
-        <option value="a#">A#/Bb</option>
-        <option value="b">B</option>
-        <option value="c">C</option>
-        <option value="c#">C#/Db</option>
-        <option value="d">D</option>
-        <option value="d#">D#/Eb</option>
-        <option value="e">E</option>
-        <option value="f">F</option>
-        <option value="f#">F#/GB</option>
-        <option value="g">G</option>
-        <option value="g#">G#/Ab</option>
-    </select>
-    <select name="type" class="type">
-        <option value="major">Major</option>
-        <option value="minor">Minor</option>
-        <option value="diminished">Diminished</option>
-        <option value="dorian">Dorian</option>
-        <option value="phyrigian">Phyrigian</option>
-        <option value="lydian">Lydian</option>
-        <option value="mixolydian">Mixolydian</option>
-        <option value="locrian">Locrian</option>
+    <div class="top_image_container">
+        <img src="guitar.jpeg" class="top_image">
+        <div class="title">FretScale</div>
+        <div class="sub_header">An interactive, full neck, scale diagram app</div>
+    </div>
+    <div class="fade_out_line"></div>
+    <div class="scale_header">Select a key root:</div>
+    <div class="key_dropdown_container">
+        <span name="scale_key" class="scale_key">Select</span>
+        <div class="dropdown_content">
+            <p value="a">A</p>
+            <p value="a#">A#/Bb</p>
+            <p value="b">B</p>
+            <p value="c">C</p>
+            <p value="c#">C#/Db</p>
+            <p value="d">D</p>
+            <p value="d#">D#/Eb</p>
+            <p value="e">E</p>
+            <p value="f">F</p>
+            <p value="f#">F#/GB</p>
+            <p value="g">G</p>
+            <p value="g#">G#/Ab</p>
+        </div>
+    </div><br>
+    <div class="scale_header">Select a scale type:</div>
+    <div class="key_dropdown_container">
+            <span name="scale_key" class="scale_key">Select</span>
+            <div class="dropdown_content">
+                <p value="major">Major</p>
+                <p value="minor">Minor</p>
+                <p value="diminished">Diminished</p>
+                <p value="dorian">Dorian</p>
+                <p value="phyrigian">Phyrigian</p>
+                <p value="lydian">Lydian</p>
+                <p value="mixolydian">Mixolydian</p>
+                <p value="locrian">Locrian</p>
+            </div>
+        </div><br>
+
     </select>
 </html>

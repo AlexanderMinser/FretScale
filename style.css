@@ -4,11 +4,78 @@ select {
     display: block;
     margin: 0 auto;
 }
-/*
-.type {
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(39, 45, 42);
+    margin:0;
+    padding:0;
+}
+
+.title {
+    color: black;
+    font-family: Lato, Arial;
+    font-size: 65pt;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px;
+    border-style: solid;
+    padding: 6px;
+}
+
+
+.sub_header {
+    font-family: Arial;
+    font-size: 25pt;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
+
+.top_image {
+    height: 500px;
+    width: 100%;
+    filter: blur(5px);
+}
+
+.dropdown_container {
+    position: relative;
+}
+
+.dropdown_content {
+    position: absolute;
+    display: none;
+}
+
+.dropdown_container:hover {
+    display: block;
+}
+
+.scale_header {
+    text-align: center;
+    font-size: 25pt;
+    font-family: Arial;
+}
+
+.key_dropdown_container {
     text-align: center;
 }
 
-.key {
-    text-align: center;
-}*/
+.fade_out_line {
+
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+
+}

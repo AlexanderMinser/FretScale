@@ -1,5 +1,5 @@
 
-
+/* Used with index.html */
 select {
     display: block;
     margin: 0 auto;
@@ -55,7 +55,7 @@ body {
     text-align: center;
 }
 
-.sub_scale_dropdown:hover .dropdown_content{
+.dropdown_content p:hover {
     display: block;
 }
 
@@ -66,14 +66,6 @@ body {
     font-family: Arial;
 }
 
-.sub_scale_dropdown {
-    text-align: center;
-    padding-bottom: 25px;
-    position: relative;
-    float: left;
-    text-align: center;
-}
-
 .fade_out_line {
 
     margin: 25px 0;
@@ -82,3 +74,14 @@ body {
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
 
 }
+
+/* Used with signup.html */
+
+.signup_container {
+    text-align: center;
+    font-family: Arial;
+    color: white;
+}
+
+
+

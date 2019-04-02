@@ -51,26 +51,24 @@ body {
 
 .navbar {
     background-color: rgba(39, 36, 36, 0.24);
-    padding: 20px;
-}
-
-.navbar a {
-    float: left;
     padding: 5px;
-    text-align: center;
+    overflow: hidden;
 }
 
-.dropdown {
-    position: left;
+.navbar_main_links {
     float: left;
-}
-
-.dropdown_content {
-    position: absolute;
-    display: none;
     text-align: center;
 }
 
+
+
+.navbar_main_links a:hover{
+    background-color: white;
+}
+
+.navbar_account_info {
+    float:right;
+}
 
 .scale_header {
     text-align: center;

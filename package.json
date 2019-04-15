@@ -1,0 +1,22 @@
+{
+  "name": "fretscale",
+  "version": "1.0.0",
+  "description": "Interactive music scale app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderMinser/FretScale.git"
+  },
+  "author": "Alex Minser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderMinser/FretScale/issues"
+  },
+  "homepage": "https://github.com/AlexanderMinser/FretScale#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
